@@ -1,0 +1,22 @@
+{
+  "name": "intechdigital-website",
+  "version": "1.0.0",
+  "description": "IntechDigital company website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.8"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "website",
+    "intechdigital"
+  ],
+  "author": "IntechDigital",
+  "license": "ISC"
+}
+

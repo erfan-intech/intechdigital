@@ -8,6 +8,10 @@ PHPMailer/
 vendor/
 composer.lock
 
+# Node modules (installed on Vercel)
+node_modules/
+package-lock.json
+
 # IDE files
 .vscode/
 .idea/

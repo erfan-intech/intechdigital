@@ -57,9 +57,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
       try {
         const formData = new FormData(contactForm);
-        const response = await fetch("contact.php", {
+        // Convert FormData to JSON for Node.js serverless function
+        const formDataObj = {};
+        formData.forEach((value, key) => {
+          formDataObj[key] = value;
+        });
+        
+        const response = await fetch("/api/contact", {
           method: "POST",
-          body: formData,
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formDataObj),
         });
 
         const result = await response.json();

@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "functions": {
-    "contact.php": {
-      "runtime": "php@8.2"
-    }
-  },
   "routes": [
-    {
-      "src": "/contact.php",
-      "dest": "/contact.php"
-    },
     {
       "src": "/(.*)",
       "dest": "/$1"
