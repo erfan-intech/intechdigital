@@ -1,0 +1,21 @@
+# SMTP Configuration (contains sensitive credentials)
+smtp_config.php
+
+# PHPMailer (if downloaded manually - not needed if using Composer)
+PHPMailer/
+
+# Composer (vendor will be installed on Vercel via composer install)
+vendor/
+composer.lock
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+

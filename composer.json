@@ -1,0 +1,14 @@
+{
+    "name": "intechdigital/website",
+    "description": "IntechDigital company website",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "IntechDigital\\": "src/"
+        }
+    }
+}
+
