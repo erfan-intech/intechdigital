@@ -92,7 +92,7 @@ Create `vercel.json` in project root (optional, for custom routing):
 
 - **Email**: info@intechdigital.xyz
 - **Phone**: +88 01405-833-038
-- **Facebook**: [facebook.com/IntechDigital.dev](https://facebook.com/IntechDigital.dev)
+- **Facebook**: [facebook.com/intechdigital.xyz](https://facebook.com/intechdigital.xyz)
 
 ## License
 
